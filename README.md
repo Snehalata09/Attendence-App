@@ -81,9 +81,6 @@ git clone https://github.com/yourusername/Attendance-App.git
 * Student Performance Analytics
 * Notifications and Reminders
 
-## 👩‍💻 Developer
-
-Snehalata
 
 ## 📄 License
 
