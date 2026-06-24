@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AttendenceApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary_peacock</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primary_light_peacock</item>
+        <item name="colorSecondary">@color/accent_peacock</item>
+        <item name="android:windowBackground">@color/background_peacock</item>
+        <item name="android:statusBarColor">@color/primary_dark_peacock</item>
+        <item name="android:fontFamily">@font/times_new_roman</item>
+        <item name="fontFamily">@font/times_new_roman</item>
+    </style>
+
+    <style name="Theme.AttendenceApp" parent="Base.Theme.AttendenceApp" />
+</resources>

@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Outer circle -->
+    <path
+        android:pathData="M50,50m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="100"
+                android:endY="100"
+                android:type="linear">
+                <item android:color="#FF4B2B" android:offset="0.0" />
+                <item android:color="#E91E63" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Lock/Key icon in white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,30c-6.6,0 -12,5.4 -12,12v6h-4v24h32v-24h-4v-6c0,-6.6 -5.4,-12 -12,-12zm-8,12c0,-4.4 3.6,-8 8,-8s8,3.6 8,8v6h-16v-6zm8,14c2.2,0 4,1.8 4,4c0,1.5 -0.8,2.8 -2,3.5v6.5h-4v-6.5c-1.2,-0.7 -2,-2 -2,-3.5c0,-2.2 1.8,-4 4,-4z" />
+</vector>

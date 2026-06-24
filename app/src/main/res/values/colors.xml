@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_peacock">#E91E63</color> <!-- Pinkish Magenta -->
+    <color name="primary_light_peacock">#FF8A80</color> <!-- Light Coral -->
+    <color name="primary_dark_peacock">#880E4F</color> <!-- Deep Raspberry -->
+    <color name="background_peacock">#FAFAFA</color> <!-- Soft Off-white/Gray -->
+    <color name="accent_peacock">#FF4B2B</color> <!-- Orange-Red -->
+    <color name="gradient_start">#FF4B2B</color> <!-- Coral Orange-Red -->
+    <color name="gradient_end">#E91E63</color> <!-- Magenta Pink -->
+</resources>

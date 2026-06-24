@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Outer circle -->
+    <path
+        android:pathData="M50,50m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="100"
+                android:endY="100"
+                android:type="linear">
+                <item android:color="#FF4B2B" android:offset="0.0" />
+                <item android:color="#E91E63" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner User Add/Document icon in white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,30c-5.5,0 -10,4.5 -10,10s4.5,10 10,10s10,-4.5 10,-10s-4.5,-10 -10,-10zm0,22c-7.3,0 -22,3.7 -22,11v5h44v-5c0,-7.3 -14.7,-11 -22,-11zm24,-12h-6v4h-4v6h4v4h6v-4h4v-6h-4v-4z" />
+</vector>
